@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
-import education from "../assets/lottie/education.json";
-import IIIT_KOTA from "../assets/IIIT_Kota.png";
+//import education from "../assets/lottie/education.json";
+//import IIIT_KOTA from "../assets/IIIT_Kota.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -26,7 +26,7 @@ const Education = () => {
           <div className="max-w-[520px] mt-[52px] p-7 max-sm:p-3">
             <div className="flex gap-5">
               <img
-                src={IIIT_KOTA}
+                src={'https://x.com/Vasco_Dayigil/photo'}
                 alt="IIIT KOTA"
                 className="w-[90px] h-[90px]"
               />
@@ -49,7 +49,7 @@ const Education = () => {
             </div>
           </div>
           <Lottie
-            animationData={education}
+            animationData={'https://x.com/Vasco_Dayigil/photo'}
             loop={true}
             className="max-w-[500px] shadow-xl rounded-xl border border-[#00040f]"
           />

@@ -3,14 +3,13 @@ import {
   CSS,
   Github,
   Git,
-  Vite,
-  TailwindCSS,
-  react,
-  Python,
+  //Vite,
+  //TailwindCSS,
+  //react,
+  //Python,
   Javascript,
-  CPP,
-  C,
-  Vue
+  //CPP,
+  //C
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -35,13 +34,13 @@ const Skills = () => {
           <Image img={HTML}></Image>
           <Image img={CSS}></Image>
           <Image img={Javascript}></Image>
-          <Image img={react}></Image>
+          {/*<Image img={react}></Image>
           <Image img={TailwindCSS}></Image>
           <Image img={Vue}></Image>
           <Image img={CPP}></Image>
           <Image img={C}></Image>
           <Image img={Python}></Image>
-          <Image img={Vite}></Image>
+          <Image img={Vite}></Image>*/}
           <Image img={Git}></Image>
           <Image img={Github}></Image>
         </div>

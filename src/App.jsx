@@ -27,6 +27,7 @@ const App = () => {
   }, []);
   return (
     <>
+    Hello
       {loading ? (
         <div className="flex h-screen justify-center items-center bg-[#00040f]">
           <HashLoader
@@ -40,6 +41,7 @@ const App = () => {
         </div>
       ) : (
         <div>
+          Hello
           <Navbar></Navbar>
           <About></About>
           <Experience></Experience>
