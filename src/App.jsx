@@ -8,7 +8,9 @@ import HashLoader from "react-spinners/HashLoader";*/
 import Navbar1 from './components/Navbar1'
 import About1 from "./components/About1";
 import Contact1 from "./components/Contact1";
-
+import Skills1 from "./components/Skills1"
+import Education1 from "./components/Education1";
+import Projects from "./components/Project1";
 
 
 import { useState, useEffect } from "react";
@@ -36,6 +38,9 @@ const App = () => {
     <Box>
    <Navbar1 />
    <About1 />
+   <Education1 />
+   <Skills1 />
+   <Projects />
    <Contact1 />
 
       {/*{loading ? (
