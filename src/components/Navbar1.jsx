@@ -23,7 +23,7 @@ const Navbar = () => {
           fontSize="20px"
           color={colorMode === "dark" ? "gray.200" : "blackAlpha.900"}
         >
-          {["Home", "Experience", "Education", "Projects", "Contact"].map((item, index) => (
+          {["Home", "Skills", "Education", "Projects", "Contact"].map((item, index) => (
             <Link
               key={index}
               href={`#${item.toLowerCase()}`}
