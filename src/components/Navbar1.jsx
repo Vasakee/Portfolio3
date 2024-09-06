@@ -2,7 +2,7 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import { HiSun, HiMoon } from "react-icons/hi";
 import { useState, useEffect } from "react";
 import { Box, Flex, Button, Link, Text, IconButton, useColorMode } from "@chakra-ui/react";
-import Menu from "./Menu";
+//import Menu from "./Menu";
 
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -54,8 +54,8 @@ const Navbar = () => {
         />
       </Flex>
 
-      {/* Mobile Menu */}
-      {nav && <Menu />}
+      {/* Mobile Menu
+      {nav && <Menu /> */}
     </Box>
   );
 };

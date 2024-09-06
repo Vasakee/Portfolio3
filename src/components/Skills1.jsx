@@ -15,6 +15,7 @@ const Skills = () => {
   return (
     <Box
       className="EXPERIENCE"
+      as="section" id="skills"
       p={5}
       mx={{ base: 5, md: 20 }}
       mb={10}

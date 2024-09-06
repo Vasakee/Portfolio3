@@ -1,6 +1,7 @@
 import { Box, Heading, Flex, Text, Image, useColorModeValue } from "@chakra-ui/react";
 import Lottie from "lottie-react";
-import educationAnimation from "../assets/lottie/Education.json"; // Adjust the path accordingly
+import educationAnimation from "../assets/lottie/Education.json"; 
+import Futminna from '../assets/Futminna.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -17,7 +18,7 @@ const Education = () => {
   const textColor = useColorModeValue("#00040f", "slategray");
 
   return (
-    <Box id="education" p={5} mx={{ base: 5, md: 20 }} mb={10} minH="100vh" fontFamily="Poppins">
+    <Box id="education" p={5} mx={{ base: 5, md: 20 }} mb={{base: 3, md: 3}} mt={{base:3, md:3}} minH={{base:'50vh', md:"100vh"}} fontFamily="Poppins">
       <Heading
         as="h1"
         fontWeight="extrabold"
@@ -38,7 +39,7 @@ const Education = () => {
         <Box maxW="520px" mt="52px" p={7}>
           <Flex gap={5}>
             <Image
-              src="https://your-valid-image-url.com/IIIT_Kota.png" // Replace with a valid image URL
+              src={Futminna} 
               alt="FUTMX"
               w="90px"
               h="90px"
@@ -48,6 +49,7 @@ const Education = () => {
               bgClip="text"
               fontSize={{ base: "17px", md: "2xl" }}
               fontWeight="semibold"
+              color={textColor}
               w="300px"
               h="100px"
               lineHeight="shorter"

@@ -1,6 +1,10 @@
 import ProjectProp from "./Project_prop1";
-import { GPT4, Portfolio, Rocket, WellBeing, Game } from "../constants/Constant";
+import Rocket from '../assets/Rocket.jpg'
 import { Box, Flex, Heading, useColorModeValue } from "@chakra-ui/react";
+import Muzeek from '../assets/Muzeek.png'
+import Voteazy from '../assets/Voteazy.png'
+import Registration from '../assets/Regis.png' 
+import Naija from '../assets/Naija.png'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,7 +33,7 @@ const Projects = () => {
     {
       title: "MUZEEK!",
       para: "A music streaming platform that allows listeners to make payments in cryptocurrencies",
-      img: Portfolio,
+      img: Muzeek,
       link: "https://muzeek.vercel.app/",
       github_link: "https://github.com/Vasakee/Muzeek",
       Role: 'Frontend Developer',
@@ -69,7 +73,7 @@ const Projects = () => {
     {
       title: "VOTEAZY",
       para: "An Online Voting site that allows only registered citizens of the country who are 18+ to vote",
-      img: WellBeing,
+      img: Voteazy,
       link: " ",
       github_link: " ",
       Role: 'FullStack Developer',
@@ -83,7 +87,7 @@ const Projects = () => {
     {
       title: "Regis!",
       para: "An Online Registration form that allows citizens to register in other for them to be able to vote",
-      img: GPT4,
+      img: Registration,
       link: "https://registration-9784.onrender.com/",
       github_link: "https://github.com/Vasakee/Regis",
       Role: 'FullStack Developer',
@@ -95,17 +99,17 @@ const Projects = () => {
       ],
     },
     {
-      title: "Stone-Paper-Scissors Game",
-      para: "A Stone Paper Scissors game to reminisce childhood memories.",
-      img: Game,
-      link: "",
-      github_link: " ",
+      title: "Naija",
+      para: "An API showing all the states in Nigeria with their respective local Governments",
+      img: Naija,
+      link: "https://vasconaija.onrender.com",
+      github_link: "https://github.com/Vasakee/Nigeria",
+      Role: 'Backend Developer',
       tech: [
-        { icon: SiHtml5, label: "HTML5" },
-        { icon: SiJavascript, label: "JavaScript" },
-        { icon: SiCss3, label: "CSS3" },
+        { icon: SiNodedotjs, label: "NodeJs" },
+        { icon: SiExpress, label: "Express" },
       ],
-    },
+    }
   ];
 
   return (
@@ -145,6 +149,7 @@ const Projects = () => {
               img={project.img}
               link={project.link}
               github_link={project.github_link}
+              Role={project.Role}
               tech={project.tech}
             />
           ))}

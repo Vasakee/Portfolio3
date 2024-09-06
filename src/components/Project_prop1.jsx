@@ -49,6 +49,7 @@ const ProjectProp = ({ title, para, img, link, github_link, tech = [], Role }) =
             {tech.map((techItem, index) => (
               <Tooltip key={index} label={techItem.label} aria-label={techItem.label}>
                 <IconButton
+                size='md'
                   icon={<techItem.icon />}
                   variant="ghost"
                   colorScheme={useColorModeValue("blackAlpha", "whiteAlpha")}

@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import { SiGithub, SiLinkedin, SiTwitter, SiGmail } from "react-icons/si";
-import Basil from "../assets/DhairyaNew.png";
+import Basil from "../assets/Basil.png";
 
 const Contact = () => {
   const currentYear = new Date().getFullYear();
@@ -74,7 +74,7 @@ const Contact = () => {
             >
               <a href="#">Resume</a>
             </Button>
-            <Button
+            {/*<Button
               bgGradient="linear(to-t, blue.600, cyan.600)"
               color="white"
               fontSize="sm"
@@ -86,13 +86,13 @@ const Contact = () => {
                 <SiGithub size={20} />
                 <span style={{ marginLeft: '8px' }}>Star</span>
               </a>
-            </Button>
+            </Button>*/}
           </Flex>
         </Box>
 
         <Box flex="1" ml={{ base: "auto", md: 0 }} display="flex" justifyContent="flex-end">
           <Image
-            src={'htpp://basil'}
+            src={Basil}
             alt="Basil Dayigil"
             boxSize={{ base: "150px", md: "200px" }}
             borderRadius="full"
