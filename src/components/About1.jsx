@@ -18,7 +18,7 @@ const About = () => {
         align="center"
         mt={12}
       >
-        <Box>
+        <Box mb={10}>
           <Heading
             as="h3"
             fontSize={{ base: "50px", md: "70px" }}
@@ -41,16 +41,19 @@ const About = () => {
           </Text>
 
           <Text
-            h="100px"
+            h="150px"
             fontSize={{ base: "15px", md: "xl" }}
             bgClip="text"
             bgGradient="linear(to-r, gray.900, slate.500)"
             _dark={{ bgGradient: "linear(to-r, teal.300, cyan.400)" }}
             maxW="470px"
             mt={5}
+            mb={10}
+
             pl={1}
           >
-            FullStack Software Engineer
+           A FullStack Software Engineer with experience in designing, developing and implementing
+           software applications using multiple frameworks of both frontend and backend engineering
           </Text>
         </Box>
 

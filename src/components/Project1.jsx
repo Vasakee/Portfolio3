@@ -1,10 +1,12 @@
 import ProjectProp from "./Project_prop1";
-import Rocket from '../assets/Rocket.jpg'
+//import Rocket from '../assets/Rocket.jpg'
 import { Box, Flex, Heading, useColorModeValue } from "@chakra-ui/react";
 import Muzeek from '../assets/Muzeek.png'
 import Voteazy from '../assets/Voteazy.png'
 import Registration from '../assets/Regis.png' 
 import Naija from '../assets/Naija.png'
+import Marbstore from '../assets/Marbstores.png'
+import InfinityGem from '../assets/InfinityGem.png'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,7 +21,8 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiNodedotjs,
-  SiExpress
+  SiExpress,
+  SiMongodb
 } from "react-icons/si";
 
 const Projects = () => {
@@ -46,7 +49,7 @@ const Projects = () => {
     {
       title: "Infinity Gem",
       para: "The EdTech website for Bluehouse Technologies.",
-      img: Rocket,
+      img: InfinityGem,
       link: "https://ig.bluehouseng.com/",
       Role: 'Member Backend development Team',
       tech: [
@@ -57,7 +60,7 @@ const Projects = () => {
     {
         title: "MarbStores",
         para: "An Ecommerce website.",
-        img: Rocket,
+        img: Marbstore,
         link: "https://www.marbstores.com/",
         Role: 'Member Backend development Team',
         tech: [
@@ -72,7 +75,7 @@ const Projects = () => {
       title: "VOTEAZY",
       para: "An Online Voting site that allows only registered citizens of the country who are 18+ to vote",
       img: Voteazy,
-      link: " ",
+      link: "https://voteazy.onrender.com",
       github_link: " ",
       Role: 'FullStack Developer',
       tech: [
@@ -80,6 +83,7 @@ const Projects = () => {
         { icon: SiChakraui, label: "ChakraUi" },
         { icon: SiNodedotjs, label: "NodeJs" },
         { icon: SiExpress, label: "Express" },
+        { icon: SiMongodb, label: "Express" }
       ],
     },
     {
