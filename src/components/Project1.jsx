@@ -45,10 +45,9 @@ const Projects = () => {
     },
     {
       title: "Infinity Gem",
-      para: "The official Website for Bluehouse Technologies.",
+      para: "The EdTech website for Bluehouse Technologies.",
       img: Rocket,
-      link: " ",
-      github_link: " ",
+      link: "https://ig.bluehouseng.com/",
       Role: 'Member Backend development Team',
       tech: [
         { icon: SiNestjs, label: "Nestjs" },
@@ -59,8 +58,7 @@ const Projects = () => {
         title: "MarbStores",
         para: "An Ecommerce website.",
         img: Rocket,
-        link: " ",
-        github_link: " ",
+        link: "https://www.marbstores.com/",
         Role: 'Member Backend development Team',
         tech: [
           { icon: SiNestjs, label: "Nestjs" },

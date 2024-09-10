@@ -1,6 +1,7 @@
 import { Box, Button, Flex, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import { SiGithub, SiLinkedin, SiTwitter, SiGmail } from "react-icons/si";
 import Basil from "../assets/Basil.png";
+import Resume from '/Resume.pdf'
 
 const Contact = () => {
   const currentYear = new Date().getFullYear();
@@ -64,6 +65,7 @@ const Contact = () => {
             </a>
           </Flex>
           <Flex gap={5} justify={{ base: "center", md: "start" }} mb={10}>
+            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
             <Button
               bgGradient="linear(to-t, blue.600, cyan.600)"
               color="white"
@@ -72,8 +74,9 @@ const Contact = () => {
               _hover={{ bgGradient: "linear(to-t, blue.500, cyan.500)" }}
               borderRadius="md"
             >
-              <a href="#">Resume</a>
+              Resume
             </Button>
+              </a>
             {/*<Button
               bgGradient="linear(to-t, blue.600, cyan.600)"
               color="white"
