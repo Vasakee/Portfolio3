@@ -52,7 +52,7 @@ const About = () => {
 
             pl={1}
           >
-           A FullStack Software Engineer with experience in designing, developing and implementing
+           A Fullstack Software Engineer with experience in designing, developing and implementing
            software applications using multiple frameworks of both frontend and backend engineering
           </Text>
         </Box>
