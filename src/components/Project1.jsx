@@ -38,7 +38,7 @@ const Projects = () => {
       para: "A music streaming platform that allows listeners to make payments in cryptocurrencies",
       img: Muzeek,
       link: "https://muzeek.vercel.app/",
-      github_link: "https://github.com/Vasakee/Muzeek",
+      github_link: " ",
       Role: 'Frontend Developer',
       tech: [
         { icon: SiReact, label: "React" },
@@ -76,7 +76,7 @@ const Projects = () => {
       para: "An Online Voting site that allows only registered citizens of the country who are 18+ to vote",
       img: Voteazy,
       link: "https://voteazy.onrender.com",
-      github_link: " ",
+      github_link: "https://github.com/Vasakee/VOTEAZY",
       Role: 'FullStack Developer',
       tech: [
         { icon: SiReact, label: "JavaScript" },
