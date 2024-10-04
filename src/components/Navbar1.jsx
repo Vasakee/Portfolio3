@@ -2,7 +2,7 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import { HiSun, HiMoon } from "react-icons/hi";
 import { useState, useEffect } from "react";
 import { Box, Flex, Button, Link, Text, IconButton, useColorMode } from "@chakra-ui/react";
-//import Menu from "./Menu";
+import Resume from "/Resume.pdf";
 
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -11,12 +11,21 @@ const Navbar = () => {
   return (
     <Box px={[5, 20]} py={5} fontFamily="'Poppins'" maxW="100vw">
       <Flex justify="space-between" align="center">
-        {/* Logo */}
         <Link href="#" fontSize={["2xl", "3xl"]} bgGradient="linear(to-r, blue.600, cyan.600)" bgClip="text" textTransform="capitalize">
           {"<Basil />"}
         </Link>
 
-        {/* Nav Links */}
+        <Button
+              bgGradient="linear(to-t, blue.600, cyan.600)"
+              color="white"
+              fontSize="sm"
+              fontWeight="medium"
+              _hover={{ bgGradient: "linear(to-t, blue.500, cyan.500)" }}
+              borderRadius="md"
+            >
+              Resume
+            </Button>
+
         <Flex
           display={{ base: "none", sm: "flex" }}
           gap={12}
@@ -54,8 +63,6 @@ const Navbar = () => {
         />
       </Flex>
 
-      {/* Mobile Menu
-      {nav && <Menu /> */}
     </Box>
   );
 };
