@@ -1,6 +1,7 @@
 import { Box, Heading, Text, Stack } from "@chakra-ui/react";
 import Lottie from "lottie-react";
 import computer from "../assets/lottie/computer.json";
+import Resume from '/Resume.pdf'
 
 const About = () => {
   return (
@@ -55,6 +56,18 @@ const About = () => {
            A Fullstack Software Engineer with experience in designing, developing and implementing
            software applications using multiple frameworks of both frontend and backend engineering
           </Text>
+          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Button
+              bgGradient="linear(to-t, blue.600, cyan.600)"
+              color="white"
+              fontSize="sm"
+              fontWeight="medium"
+              _hover={{ bgGradient: "linear(to-t, blue.500, cyan.500)" }}
+              borderRadius="md"
+            >
+              Resume
+            </Button>
+              </a>
         </Box>
 
         <Box

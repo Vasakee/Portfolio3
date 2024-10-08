@@ -15,17 +15,6 @@ const Navbar = () => {
           {"<Basil />"}
         </Link>
 
-        <Button
-              bgGradient="linear(to-t, blue.600, cyan.600)"
-              color="white"
-              fontSize="sm"
-              fontWeight="medium"
-              _hover={{ bgGradient: "linear(to-t, blue.500, cyan.500)" }}
-              borderRadius="md"
-            >
-              Resume
-            </Button>
-
         <Flex
           display={{ base: "none", sm: "flex" }}
           gap={12}
