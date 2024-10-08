@@ -60,10 +60,9 @@ const About = () => {
             <Button
               bgGradient="linear(to-t, blue.600, cyan.600)"
               color="white"
-              fontSize="md"
+              size='lg'
               fontWeight="bold"
               _hover={{ bgGradient: "linear(to-t, blue.500, cyan.500)" }}
-              size='lg'
             >
               Resume
             </Button>
