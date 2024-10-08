@@ -40,12 +40,11 @@ const About = () => {
           >
             Basil Dayigil
           </Text>
-
           <Text
             h="150px"
             fontSize={{ base: "15px", md: "xl" }}
             bgClip="text"
-            bgGradient="linear(to-r, gray.900, slate.500)"
+            bgGradient="linear(to-r, blue.600, cyan.600)"
             _dark={{ bgGradient: "linear(to-r, teal.300, cyan.400)" }}
             maxW="470px"
             mt={5}
