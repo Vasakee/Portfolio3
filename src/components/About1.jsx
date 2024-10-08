@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Stack } from "@chakra-ui/react";
+import { Box, Button, Heading, Text, Stack } from "@chakra-ui/react";
 import Lottie from "lottie-react";
 import computer from "../assets/lottie/computer.json";
 import Resume from '/Resume.pdf'
