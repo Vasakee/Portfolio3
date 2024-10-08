@@ -66,7 +66,7 @@ const About = () => {
               height="50px" 
               _hover={{ bgGradient: "linear(to-t, blue.500, cyan.500)" }}
             >
-              Resume
+             See Resume
             </Button>
               </a>
         </Box>
