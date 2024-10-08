@@ -62,6 +62,8 @@ const About = () => {
               color="white"
               size='lg'
               fontWeight="bold"
+              width="10px"  
+              height="5px" 
               _hover={{ bgGradient: "linear(to-t, blue.500, cyan.500)" }}
             >
               Resume
